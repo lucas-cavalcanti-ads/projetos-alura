@@ -1,0 +1,24 @@
+.flexContainer:last-child{margin-top: 2em;}
+body{margin: 0;padding: 0;}
+div{height: 50px;width: 50px;}
+div:nth-child(1){background-color: lawngreen;}
+div:nth-child(2){background-color: red;}
+div:nth-child(3){background-color: rebeccapurple;}
+div:nth-child(4){background-color: black;}
+div:nth-child(5){background-color: blue;}
+div:nth-child(6){background-color: yellow}
+div:nth-child(7){background-color: grey;}
+div:nth-child(8){background-color: orange;}
+
+.flexContainer{
+    display: flex;
+    /*
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    */
+}
+
+.flexItem{
+    flex-grow: 1;
+}
